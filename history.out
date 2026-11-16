@@ -1,0 +1,111 @@
+    1  su
+    2  ls
+    3  cd /run/media/andrew/
+    4  ls
+    5  cd VBox_GAs_7.1.18/
+    6  sudo ./VBoxLinuxAdditions.run 
+    7  reboot
+    8  sudo /run/media/andrew/VBoxLinuxAdditions.run 
+    9  sudo /run/media/andrew/VBox_GAs_7.1.18/VBoxLinuxAdditions.run 
+   10  sudo reboot 
+   11  seinfo 
+   12  clear
+   13  dnf info
+   14  clear
+   15  man rpm
+   16  man rpm | grep -q
+   17  man rpm | grep -l
+   18  man rpm | grep --quite
+   19  grpe help
+   20  grep help
+   21  grep --help
+   22  clear
+   23  rpm --help
+   24  rpm -qf /etc/selinux/config 
+   25  man debugfs
+   26  ls
+   27  ls -l /etc/passwd
+   28  ll /etc/passwd
+   29  ls -il
+   30  ls -il /etc/passwd
+   31  stat /etc/passwd
+   32  clear
+   33  stat /etc/passwd
+   34  sile /etc/passwd
+   35  file /etc/passwd
+   36  file -a /etc/passwd
+   37  clear
+   38  stat /etc/passwd
+   39  sudo su
+   40  useradd --help 
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd ~/
+   45  LS
+   46  ls
+   47  cd Рабочий\ стол/
+   48  ды
+   49  ls
+   50  sudo su
+   51  cd ..
+   52  getcap ./cat 
+   53  sudo setcap "cap_dac_read_search=ep" cat
+   54  getcap ./cat 
+   55  ./cat /etc/shadow
+   56  sudo su
+   57  ls
+   58  ./chown root id 
+   59  whireis -b id
+   60  whereis -b id
+   61  ./chown root /usr/bin/id 
+   62  sudo su
+   63  clear
+   64  stat /home/user1 > ~/stat.out
+   65  ls
+   66  rm -r cat 
+   67  rm -r ./cat 
+   68  rm -r ./chown 
+   69  ls
+   70  cat stat.out 
+   71  history 
+   72  sudo cp /usr/bin/cat ~/chown_HW
+   73  sudo cp /usr/bin/cat ~/cat_HW
+   74  ls
+   75  rm -r chown_HW 
+   76  sudo setcap "cap_chown=ep" cat
+   77  sudo setcap "cap_dac_read_serach=ep" cat
+   78  sudo setcap "cap_dac_read_serach=ep" cat_HW 
+   79  sudo setcap "cap_dac_read_serach=ep" ~/cat_HW 
+   80  cd ~/
+   81  sudo setcap "cap_dac_read_serach=ep" cat_HW 
+   82  clear
+   83  cd ~/
+   84  ls
+   85  rm -r cat_HW 
+   86  cp /usr/bin/cat .
+   87  sudo setcap "cap_dac_read_search=ep" cat
+   88  getcap ./ cat 
+   89  ./cat /etc/shadow 
+   90  cp /usr/bin/chown .
+   91  ls
+   92  sudo chown root:root ./chown 
+   93  sudo chmod u+s ./chown 
+   94  clear
+   95  ls
+   96  stat ./cat >> stat.out
+   97  stat ./chown >> stat.out
+   98  cat stat.out 
+   99  getcap ./cat > ./getcap.out
+  100  ps aux > ./proc.out
+  101  cat proc.out 
+  102  sudo su
+  103  ls
+  104  cat /etc/sudoers > ./sudoers.out
+  105  sudo cat /etc/sudoers > ./sudoers.out
+  106  sudo cat /etc/group > ./group.out
+  107  sudo cat /etc/shadow > ./shadow.out
+  108  sudo cat /etc/passwd > ./passwd.out
+  109  ls
+  110  sudo su
+  111  history > ./history.out
