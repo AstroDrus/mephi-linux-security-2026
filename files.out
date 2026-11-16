@@ -1,0 +1,15 @@
+итого 168
+-rwxr-xr-x. 1 andrew andrew 36568 ноя 16 23:44 cat
+-rwsr-xr-x. 1 root   root   65840 ноя 16 23:47 chown
+-rw-r--r--. 1 andrew andrew     0 ноя 16 23:55 files.out
+-rw-r--r--. 1 andrew andrew    29 ноя 16 23:52 getcap.out
+-rw-r--r--. 1 andrew andrew 16748 ноя 16 23:54 proc.out
+-rw-r--r--. 1 andrew andrew  1665 ноя 16 23:51 stat.out
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Видео
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Документы
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Загрузки
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Изображения
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Музыка
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Общедоступные
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Рабочий стол
+drwxr-xr-x. 2 andrew andrew  4096 ноя  7 23:07 Шаблоны
